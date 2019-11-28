@@ -1,0 +1,26 @@
+.banner {
+    clear: both;
+    text-align: center;
+    width: 98.3%;
+    padding-top: 10%;
+    padding-bottom: 0;
+    color: rgb(36, 36, 36);
+    border-radius: 40px;
+    background: linear-gradient(to bottom right, rgb(100, 55, 255), rgb(53, 100, 58));
+}
+
+.regist {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: center;
+    width: 50%;
+    color: rgb(36, 36, 36);
+    border-radius: 40px;
+    background: rgb(255, 255, 255);
+}
+
+.mat-form-field {
+    padding: 10px;
+}

@@ -1,0 +1,157 @@
+.navigation {
+    padding: 2em 4em;
+}
+
+.button-rounded-move {
+    color: rgb(70, 200, 100);
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid;
+    border-color: rgb(70, 200, 100);
+    font-size: 2em;
+    width: 8em;
+    padding: 10px 20px;
+    float: left;
+}
+
+.button-rounded-reset {
+    color: rgb(255, 85, 85);
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid;
+    border-color: rgb(255, 85, 85);
+    font-size: 2em;
+    width: 8em;
+    padding: 10px 20px;
+    float: right;
+}
+
+.chess-board {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 10px;
+    width: 40%;
+    height: 90%;
+    border-radius: 40px;
+    background: linear-gradient(to bottom right, rgb(100, 55, 255), rgb(53, 100, 58));
+}
+
+.preview {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: center;
+    width: 400px;
+    color: rgb(36, 36, 36);
+    border-radius: 40px;
+    background: linear-gradient(to bottom right, rgb(100, 55, 255), rgb(53, 100, 58));
+}
+
+.user-info {
+    float: left;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: center;
+    width: 15%;
+    color: rgb(36, 36, 36);
+    border-radius: 40px;
+    background: linear-gradient(to bottom right, rgb(100, 55, 255), rgb(53, 100, 58));
+}
+
+@media (max-width: 1800px) {
+    .chess-board {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .chess-board {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .chess-board {
+        width: 95%;
+    }
+}
+
+.chess-board-border {
+    width: 42em;
+    height: 42em;
+    padding: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    background-color: rgba(60, 60, 60, 0);
+    border: solid;
+    border-color: rgb(255, 85, 85);
+    border-width: 5px;
+}
+
+.piece-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#A1, #A3, #A5, #A7,
+#B2, #B4, #B6, #B8,
+#C1, #C3, #C5, #C7,
+#D2, #D4, #D6, #D8,
+#E1, #E3, #E5, #E7,
+#F2, #F4, #F6, #F8,
+#G1, #G3, #G5, #G7,
+#H2, #H4, #H6, #H8
+ {
+    border-radius: 30px;
+    background-color: rgb(60, 60, 60, 0);
+    border: solid;
+    border-color: rgb(255, 85, 85);
+    border-width: thick;
+    height: 68px;
+    width: 68px;
+}
+
+#A1:hover, #A3:hover, #A5:hover, #A7:hover,
+#B2:hover, #B4:hover, #B6:hover, #B8:hover,
+#C1:hover, #C3:hover, #C5:hover, #C7:hover,
+#D2:hover, #D4:hover, #D6:hover, #D8:hover,
+#E1:hover, #E3:hover, #E5:hover, #E7:hover,
+#F2:hover, #F4:hover, #F6:hover, #F8:hover,
+#G1:hover, #G3:hover, #G5:hover, #G7:hover,
+#H2:hover, #H4:hover, #H6:hover, #H8:hover {
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, rgb(255, 68, 55), rgb(43, 41, 24));
+}
+
+#A2, #A4, #A6, #A8,
+#B1, #B3, #B5, #B7,
+#C2, #C4, #C6, #C8,
+#D1, #D3, #D5, #D7,
+#E2, #E4, #E6, #E8,
+#F1, #F3, #F5, #F7,
+#G2, #G4, #G6, #G8,
+#H1, #H3, #H5, #H7  {
+    border-radius: 30px;
+    background-color: rgb(60, 60, 60, 0);
+    border: solid;
+    border-color: rgb(85, 255, 255);
+    border-width: thick;
+    height: 68px;
+    width: 68px;
+}
+
+#A2:hover, #A4:hover, #A6:hover, #A8:hover,
+#B1:hover, #B3:hover, #B5:hover, #B7:hover,
+#C2:hover, #C4:hover, #C6:hover, #C8:hover,
+#D1:hover, #D3:hover, #D5:hover, #D7:hover,
+#E2:hover, #E4:hover, #E6:hover, #E8:hover,
+#F1:hover, #F3:hover, #F5:hover, #F7:hover,
+#G2:hover, #G4:hover, #G6:hover, #G8:hover,
+#H1:hover, #H3:hover, #H5:hover, #H7:hover  {
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, rgb(100, 55, 255), rgb(18, 36, 20));
+}

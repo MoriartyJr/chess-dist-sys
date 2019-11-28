@@ -1,0 +1,19 @@
+<mat-card class="banner">
+  <mat-card class="login">
+    <form (submit)="LoginUser($event)">
+      <mat-form-field>
+        <input matInput type="text" placeholder="Email" id="email">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput type="password" placeholder="Password" id="password">
+      </mat-form-field>
+
+      <button mat-raised-button type="submit">Submit</button>
+    </form>
+    <p> </p>
+    <a routerLink="/regist">Registration</a>
+
+  </mat-card>
+
+</mat-card>
