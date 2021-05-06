@@ -14,10 +14,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./chess-board.component.css']
 })
 export class ChessBoardComponent implements OnInit {
-  private board: Board = new Board();
   private origin: string;
   private destination: string;
-
+  
+  public board: Board = new Board();
   public Player: User = new User("", "", "", "");
   public MoveSelected: boolean = false;
   public MovePreview: string = "";
