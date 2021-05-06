@@ -33,23 +33,23 @@ import { RegistComponent } from './chess/regist/regist.component';
     BrowserAnimationsModule,
     HttpClientModule,
     RouterModule.forRoot([
-      {
+    {
         path: 'board',
         component: ChessBoardComponent
-      },
-      {
+    },
+    {
         path: '',
         component: LoginComponent
-      },
-      {
+    },
+    {
         path: 'regist',
         component: RegistComponent
-      },
-      {
+    },
+    {
         path: 'admin',
         component: AdminComponent
-      }
-    ]),
+    }
+], { relativeLinkResolution: 'legacy' }),
 
     MatCardModule,
     MatDialogModule,
